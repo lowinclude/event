@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a1a1b" />
+    <title>Алхимия — все 720 рецептов</title>
+    <meta name="description" content="Все 720 элементов Алхимии на русском: поиск, рецепты и пошаговые цепочки." />
+    <meta property="og:title" content="Алхимия — все 720 рецептов" />
+    <meta property="og:description" content="Простой русскоязычный справочник с поиском и пошаговыми цепочками." />
+    <meta property="og:image" content="og.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../topbar.css" />
+    <script src="data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="../" aria-label="Ивент — на главную">// ИВЕНТ</a>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="catalog" aria-label="Каталог элементов">
+        <div class="search">
+          <span class="search__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4 4" /></svg>
+          </span>
+          <input id="search-input" type="search" placeholder="Найти элемент..." autocomplete="off" aria-label="Найти элемент" />
+          <button id="clear-search" class="icon-button" type="button" aria-label="Очистить поиск" hidden>×</button>
+        </div>
+
+        <label class="mode-switch">
+          <input id="step-mode" type="checkbox" checked />
+          <span class="fake-checkbox" aria-hidden="true">✓</span>
+          <span>Показывать пошагово</span>
+        </label>
+
+        <div class="list-head">
+          <span>Элементы</span>
+          <span id="result-count">720</span>
+        </div>
+        <div class="element-list" id="element-list" role="listbox" aria-label="Результаты поиска"></div>
+      </section>
+
+      <section class="recipe-card" id="recipe-card" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      Рецепты взяты из
+      <a href="https://little-alchemy.fandom.com/wiki/Elements_(Little_Alchemy_2)" target="_blank" rel="noreferrer">Little Alchemy Wiki</a>.
+    </footer>
+  </body>
+</html>
