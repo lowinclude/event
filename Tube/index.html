@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0d0e" />
+    <meta
+      name="description"
+      content="Пошаговый решатель головоломки с переливанием цветов по колбам."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Колбы — пошаговый решатель" />
+    <meta property="og:description" content="Заполните цвета и получите понятное решение по ходам." />
+    <meta property="og:image" content="og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Колбы — пошаговый решатель" />
+    <meta name="twitter:description" content="Заполните цвета и получите понятное решение по ходам." />
+    <meta name="twitter:image" content="og.png" />
+    <title>Колбы — решатель головоломки</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../topbar.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="../" aria-label="Ивент — на главную">// ИВЕНТ</a>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="workspace" aria-label="Редактор головоломки">
+        <div class="palette-wrap" id="paletteWrap">
+          <div class="palette" id="palette" role="toolbar" aria-label="Палитра цветов"></div>
+          <button class="eraser-button" id="eraserButton" type="button" aria-label="Стереть цвет" title="Стереть">⌫</button>
+        </div>
+
+        <div class="game-stage">
+          <div class="pour-guide" id="pourGuide" aria-live="polite" hidden>
+            <span class="guide-number" id="sourceNumber">1</span>
+            <span class="guide-arrow">→</span>
+            <span class="guide-number" id="targetNumber">2</span>
+          </div>
+          <div class="tubes" id="tubes" aria-label="Колбы"></div>
+        </div>
+
+        <div class="actions editor-actions" id="editorActions">
+          <button class="secondary-button" id="clearButton" type="button">Очистить</button>
+          <button class="primary-button" id="solveButton" type="button">
+            <span>Найти решение</span><span class="button-arrow">→</span>
+          </button>
+        </div>
+
+        <div class="actions solution-actions" id="solutionActions" hidden>
+          <button class="secondary-button" id="backToEditButton" type="button">← Изменить раскладку</button>
+          <div class="move-counter" id="moveCounter">Ход 1 из 1</div>
+          <button class="secondary-button" id="prevButton" type="button">← Назад</button>
+          <button class="primary-button" id="nextButton" type="button">
+            <span>Следующий шаг</span><span class="button-arrow">→</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="alert" aria-live="assertive" hidden></div>
+    <script src="app.js"></script>
+  </body>
+</html>
