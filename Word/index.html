@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a1a1b" />
+    <title>Фаллаут — подбор слова</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../topbar.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="../" aria-label="Ивент — на главную">// ИВЕНТ</a>
+      </div>
+    </header>
+
+    <main class="app">
+      <div class="word-toolbar">
+        <button class="button danger ghost" id="resetButton" type="button">Сбросить</button>
+      </div>
+
+      <section id="inputPanel">
+        <div class="section-head">
+          <h1>Слова</h1>
+          <span class="counter" id="wordCounter">0 / 18</span>
+        </div>
+        <div class="inputs" id="wordInputs"></div>
+        <p class="error" id="inputError" role="alert"></p>
+        <button class="button primary full" id="startButton" type="button" disabled>Начать</button>
+      </section>
+
+      <section id="workspace" hidden>
+        <div class="results">
+          <div class="section-head">
+            <h1>Подходят</h1>
+            <span class="counter accent" id="resultCounter">18</span>
+          </div>
+          <div class="word-grid" id="wordGrid" aria-live="polite"></div>
+          <div class="empty" id="emptyState" hidden>Нет подходящих слов</div>
+        </div>
+
+        <aside id="historyPanel">
+          <div class="section-head small">
+            <h2>История</h2>
+            <span class="counter" id="historyCount">0</span>
+          </div>
+          <ol class="history" id="historyList"></ol>
+          <div class="history-empty" id="historyEmpty">Пока пусто</div>
+          <button class="button ghost full" id="undoButton" type="button" hidden>Отменить шаг</button>
+        </aside>
+      </section>
+    </main>
+
+    <dialog id="matchDialog">
+      <form method="dialog" id="matchForm">
+        <div class="dialog-head">
+          <h2 id="selectedWord"></h2>
+          <button class="close" value="cancel" aria-label="Закрыть">×</button>
+        </div>
+        <label for="matchInput">Совпало букв</label>
+        <div class="number-control">
+          <button id="decreaseButton" type="button" aria-label="Уменьшить">−</button>
+          <input id="matchInput" type="number" inputmode="numeric" min="0" value="0" required />
+          <button id="increaseButton" type="button" aria-label="Увеличить">+</button>
+        </div>
+        <p class="error" id="dialogError" role="alert"></p>
+        <div class="actions">
+          <button class="button ghost" value="cancel">Отмена</button>
+          <button class="button primary" value="default">Применить</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="resetDialog" class="confirm">
+      <form method="dialog">
+        <h2>Сбросить всё?</h2>
+        <div class="actions">
+          <button class="button ghost" value="cancel">Отмена</button>
+          <button class="button danger solid" id="confirmResetButton" value="default">Сбросить</button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>
