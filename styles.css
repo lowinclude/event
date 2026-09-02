@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap");
+
+:root {
+  color-scheme: dark;
+  --bg: #1a1a1b;
+  --surface: #242426;
+  --surface-hover: #2b2b2e;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.2);
+  --text: #f2f2f2;
+  --muted: #a0a0a0;
+  --accent: #ff7a2f;
+  font-family: "Onest", "Segoe UI", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; background: var(--bg); }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    var(--bg);
+  background-size: 48px 48px;
+  color: var(--text);
+}
+
+a { color: inherit; }
+
+.landing {
+  min-height: calc(100vh - 64px);
+  display: grid;
+  place-items: center;
+  padding: 48px 24px;
+}
+
+.projects { width: min(1040px, 100%); }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 240px));
+  justify-content: center;
+  gap: 12px;
+}
+
+.project-card {
+  min-height: 112px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 24px 1fr;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  text-decoration: none;
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.project-card:hover {
+  z-index: 1;
+  border-color: var(--line-strong);
+  background: var(--surface-hover);
+  transform: translateY(-4px);
+}
+
+.project-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.card-index {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+  color: var(--muted);
+  font: 700 11px/1 "Onest", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.card-arrow {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  color: var(--accent);
+  transition: color 180ms ease, background-color 180ms ease;
+}
+
+.card-arrow svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: square; stroke-linejoin: miter; }
+
+.project-card:hover .card-arrow { background: var(--accent); color: #fff; }
+
+.card-copy {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  align-self: end;
+  min-width: 0;
+}
+.card-copy strong, .card-copy small { display: block; }
+.card-copy strong { font-size: 18px; letter-spacing: -0.025em; }
+.card-copy small { margin-top: 4px; color: var(--muted); font-size: 11px; }
+
+@media (max-width: 760px) {
+  .project-grid { grid-template-columns: minmax(0, 360px); }
+  .project-card { min-height: 108px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}
