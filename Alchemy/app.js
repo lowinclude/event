@@ -7,9 +7,15 @@
     return;
   }
 
-  const elements = [...data.elements].sort((a, b) => a.name.localeCompare(b.name, 'ru'));
+  // Единственный источник отображаемых русских названий — data.names.
+  // Внутренние id элементов и рецептов при переименовании не меняются.
+  const russianNames = data.names || {};
+  const displayName = (id, fallback = id) => russianNames[id] || fallback;
+  const elements = data.elements
+    .map((element) => ({ ...element, name: displayName(element.id, element.name) }))
+    .sort((a, b) => a.name.localeCompare(b.name, 'ru'));
   const elementMap = new Map(elements.map((element) => [element.id, element]));
-  const nameOf = (id) => data.names[id] || elementMap.get(id)?.name || id;
+  const nameOf = (id) => displayName(id, elementMap.get(id)?.name);
   const baseIcons = { air: '💨', earth: '🌍', fire: '🔥', water: '💧', time: '⏳' };
 
   const searchInput = document.querySelector('#search-input');
