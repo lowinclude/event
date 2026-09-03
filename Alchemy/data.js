@@ -3,7 +3,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "air",
       "nameEn": "air",
-      "name": "Воздух",
       "tier": 0,
       "starting": true,
       "special": false,
@@ -17,16 +16,19 @@ window.ALCHEMY_DATA = {
     {
       "id": "earth",
       "nameEn": "earth",
-      "name": "Земля",
       "tier": 0,
       "starting": true,
       "special": false,
-      "recipes": []
+      "recipes": [
+        [
+          "sand",
+          "glass"
+        ]
+      ]
     },
     {
       "id": "fire",
       "nameEn": "fire",
-      "name": "Пламя",
       "tier": 0,
       "starting": true,
       "special": false,
@@ -44,7 +46,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "water",
       "nameEn": "water",
-      "name": "Вода",
       "tier": 0,
       "starting": true,
       "special": true,
@@ -62,7 +63,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "time",
       "nameEn": "time",
-      "name": "Время",
       "tier": -1,
       "starting": false,
       "special": true,
@@ -71,7 +71,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dust",
       "nameEn": "Dust",
-      "name": "Пыль",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -93,7 +92,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "energy",
       "nameEn": "Energy",
-      "name": "Энергия",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -119,7 +117,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "land",
       "nameEn": "Land",
-      "name": "Суша",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -149,7 +146,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lava",
       "nameEn": "Lava",
-      "name": "Лава",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -171,7 +167,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mist",
       "nameEn": "Mist",
-      "name": "Дымка",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -193,7 +188,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mud",
       "nameEn": "Mud",
-      "name": "Грязь",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -211,7 +205,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pressure",
       "nameEn": "Pressure",
-      "name": "Давление",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -241,7 +234,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "puddle",
       "nameEn": "Puddle",
-      "name": "Лужа",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -259,7 +251,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "smoke",
       "nameEn": "Smoke",
-      "name": "Дым",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -305,7 +296,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steam",
       "nameEn": "Steam",
-      "name": "Пар",
       "tier": 1,
       "starting": false,
       "special": false,
@@ -331,7 +321,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "brick",
       "nameEn": "Brick",
-      "name": "Кирпич",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -361,7 +350,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "continent",
       "nameEn": "Continent",
-      "name": "Континент",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -387,7 +375,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "earthquake",
       "nameEn": "Earthquake",
-      "name": "Землетрясение",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -409,7 +396,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "eruption",
       "nameEn": "Eruption",
-      "name": "Извержение",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -431,7 +417,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "geyser",
       "nameEn": "Geyser",
-      "name": "Гейзер",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -457,7 +442,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "granite",
       "nameEn": "Granite",
-      "name": "Гранит",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -479,7 +463,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gunpowder",
       "nameEn": "Gunpowder",
-      "name": "Порох",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -509,7 +492,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "heat",
       "nameEn": "Heat",
-      "name": "Жар",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -535,7 +517,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "obsidian",
       "nameEn": "Obsidian",
-      "name": "Обсидиан",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -557,7 +538,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pond",
       "nameEn": "Pond",
-      "name": "Пруд",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -583,7 +563,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "stone",
       "nameEn": "Stone",
-      "name": "Камень",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -605,7 +584,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "volcano",
       "nameEn": "Volcano",
-      "name": "Вулкан",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -647,7 +625,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wind",
       "nameEn": "Wind",
-      "name": "Ветер",
       "tier": 2,
       "starting": false,
       "special": false,
@@ -669,7 +646,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chimney",
       "nameEn": "Chimney",
-      "name": "Дымоход",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -707,7 +683,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "clay",
       "nameEn": "Clay",
-      "name": "Глина",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -745,7 +720,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "explosion",
       "nameEn": "Explosion",
-      "name": "Взрыв",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -795,7 +769,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lake",
       "nameEn": "Lake",
-      "name": "Озеро",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -821,7 +794,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "metal",
       "nameEn": "Metal",
-      "name": "Металл",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -851,7 +823,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mountain",
       "nameEn": "Mountain",
-      "name": "Гора",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -885,7 +856,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "planet",
       "nameEn": "Planet",
-      "name": "Планета",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -915,7 +885,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "plasma",
       "nameEn": "Plasma",
-      "name": "Плазма",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -941,7 +910,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sand",
       "nameEn": "Sand",
-      "name": "Песок",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -979,7 +947,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tornado",
       "nameEn": "Tornado",
-      "name": "Торнадо",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -1013,7 +980,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wall",
       "nameEn": "Wall",
-      "name": "Стена",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -1035,7 +1001,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "warmth",
       "nameEn": "Warmth",
-      "name": "Тепло",
       "tier": 3,
       "starting": false,
       "special": false,
@@ -1053,7 +1018,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "atmosphere",
       "nameEn": "Atmosphere",
-      "name": "Атмосфера",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1071,7 +1035,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "atomic bomb",
       "nameEn": "Atomic bomb",
-      "name": "Атомная бомба",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1093,7 +1056,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "avalanche",
       "nameEn": "Avalanche",
-      "name": "Лавина",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1155,7 +1117,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "beach",
       "nameEn": "Beach",
-      "name": "Пляж",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1185,7 +1146,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "blade",
       "nameEn": "Blade",
-      "name": "Лезвие",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1211,7 +1171,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "boiler",
       "nameEn": "Boiler",
-      "name": "Бойлер",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1241,7 +1200,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bullet",
       "nameEn": "Bullet",
-      "name": "Пуля",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1267,7 +1225,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dam",
       "nameEn": "Dam",
-      "name": "Плотина",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1313,7 +1270,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "desert",
       "nameEn": "Desert",
-      "name": "Пустыня",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1343,7 +1299,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dune",
       "nameEn": "Dune",
-      "name": "Дюна",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1373,7 +1328,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "firewall",
       "nameEn": "Firewall",
-      "name": "Брандмауэр",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1387,7 +1341,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "glass",
       "nameEn": "Glass",
-      "name": "Стекло",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1413,7 +1366,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gold",
       "nameEn": "Gold",
-      "name": "Золото",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1483,7 +1435,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "grenade",
       "nameEn": "Grenade",
-      "name": "Граната",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1505,7 +1456,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "house",
       "nameEn": "House",
-      "name": "Дом",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1535,7 +1485,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mercury",
       "nameEn": "Mercury",
-      "name": "Меркурий",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1553,7 +1502,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "moon",
       "nameEn": "Moon",
-      "name": "Луна",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1599,7 +1547,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mountain range",
       "nameEn": "Mountain range",
-      "name": "Горный хребет",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1617,7 +1564,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "plow",
       "nameEn": "Plow",
-      "name": "Плуг",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1655,7 +1601,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "river",
       "nameEn": "River",
-      "name": "Река",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1685,7 +1630,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rust",
       "nameEn": "Rust",
-      "name": "Ржавчина",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1711,7 +1655,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sandstone",
       "nameEn": "Sandstone",
-      "name": "Песчаник",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1733,7 +1676,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sandstorm",
       "nameEn": "Sandstorm",
-      "name": "Песчаная буря",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1771,7 +1713,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sea",
       "nameEn": "Sea",
-      "name": "Море",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1797,7 +1738,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "solar system",
       "nameEn": "Solar system",
-      "name": "Солнечная система",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1843,7 +1783,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sun",
       "nameEn": "Sun",
-      "name": "Солнце",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1881,7 +1820,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "venus",
       "nameEn": "Venus",
-      "name": "Венера",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1903,7 +1841,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "waterfall",
       "nameEn": "Waterfall",
-      "name": "Водопад",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1937,7 +1874,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wave",
       "nameEn": "Wave",
-      "name": "Волна",
       "tier": 4,
       "starting": false,
       "special": false,
@@ -1983,7 +1919,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "aquarium",
       "nameEn": "Aquarium",
-      "name": "Аквариум",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2017,7 +1952,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "aurora",
       "nameEn": "Aurora",
-      "name": "Аврора",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2055,7 +1989,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bank",
       "nameEn": "Bank",
-      "name": "Банк",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2109,7 +2042,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "black hole",
       "nameEn": "Black hole",
-      "name": "Черная дыра",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2135,7 +2067,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "blender",
       "nameEn": "Blender",
-      "name": "Блендер",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2165,7 +2096,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bridge",
       "nameEn": "Bridge",
-      "name": "Мост",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2199,7 +2129,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cloud",
       "nameEn": "Cloud",
-      "name": "Облако",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2225,7 +2154,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "current",
       "nameEn": "Current",
-      "name": "Течение",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2267,7 +2195,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "eclipse",
       "nameEn": "Eclipse",
-      "name": "Затмение",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2281,7 +2208,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "factory",
       "nameEn": "Factory",
-      "name": "Фабрика",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2299,7 +2225,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "field",
       "nameEn": "Field",
-      "name": "Поле",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2345,7 +2270,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fireworks",
       "nameEn": "Fireworks",
-      "name": "Фейерверк",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2363,7 +2287,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flood",
       "nameEn": "Flood",
-      "name": "Наводнение",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2409,7 +2332,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "galaxy",
       "nameEn": "Galaxy",
-      "name": "Галактика",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2455,7 +2377,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "glasses",
       "nameEn": "Glasses",
-      "name": "Очки",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2489,7 +2410,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gun",
       "nameEn": "Gun",
-      "name": "Пистолет",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2527,7 +2447,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hourglass",
       "nameEn": "Hourglass",
-      "name": "Песочные часы",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2557,7 +2476,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hurricane",
       "nameEn": "Hurricane",
-      "name": "Ураган",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2583,7 +2501,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "island",
       "nameEn": "Island",
-      "name": "Остров",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2609,7 +2526,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "katana",
       "nameEn": "Katana",
-      "name": "Катана",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2639,7 +2555,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mars",
       "nameEn": "Mars",
-      "name": "Марс",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2657,7 +2572,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "meteoroid",
       "nameEn": "Meteoroid",
-      "name": "Метеороид",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2703,7 +2617,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mirror",
       "nameEn": "Mirror",
-      "name": "Зеркало",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2725,7 +2638,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "oasis",
       "nameEn": "Oasis",
-      "name": "Оазис",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2767,7 +2679,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ocean",
       "nameEn": "Ocean",
-      "name": "Океан",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2793,7 +2704,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "primordial soup",
       "nameEn": "Primordial soup",
-      "name": "Первобытный суп",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2827,7 +2737,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pyramid",
       "nameEn": "Pyramid",
-      "name": "Пирамида",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2869,7 +2778,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rainbow",
       "nameEn": "Rainbow",
-      "name": "Радуга",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2907,7 +2815,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rocket",
       "nameEn": "Rocket",
-      "name": "Ракета",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2953,7 +2860,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "safe",
       "nameEn": "Safe",
-      "name": "Сейф",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -2987,7 +2893,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "salt",
       "nameEn": "Salt",
-      "name": "Соль",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3021,7 +2926,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scissors",
       "nameEn": "Scissors",
-      "name": "Ножницы",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3051,7 +2955,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sky",
       "nameEn": "Sky",
-      "name": "Небо",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3077,7 +2980,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "solar cell",
       "nameEn": "Solar cell",
-      "name": "Солнечная батарея",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3107,7 +3009,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sound",
       "nameEn": "Sound",
-      "name": "Звук",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3133,7 +3034,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "space station",
       "nameEn": "Space station",
-      "name": "Космическая станция",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3167,7 +3067,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "supernova",
       "nameEn": "Supernova",
-      "name": "Сверхновая",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3193,7 +3092,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "swimming pool",
       "nameEn": "Swimming pool",
-      "name": "Бассейн",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3215,7 +3113,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sword",
       "nameEn": "Sword",
-      "name": "Меч",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3237,7 +3134,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "telescope",
       "nameEn": "Telescope",
-      "name": "Телескоп",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3303,7 +3199,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tide",
       "nameEn": "Tide",
-      "name": "Прилив",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3329,7 +3224,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tsunami",
       "nameEn": "Tsunami",
-      "name": "Цунами",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3363,7 +3257,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "village",
       "nameEn": "Village",
-      "name": "Деревня",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3393,7 +3286,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "windmill",
       "nameEn": "Windmill",
-      "name": "Ветряная мельница",
       "tier": 5,
       "starting": false,
       "special": false,
@@ -3423,7 +3315,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "acid rain",
       "nameEn": "Acid rain",
-      "name": "Кислотный дождь",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3461,7 +3352,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "archipelago",
       "nameEn": "Archipelago",
-      "name": "Архипелаг",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3483,7 +3373,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "barn",
       "nameEn": "Barn",
-      "name": "Сарай",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3561,7 +3450,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bayonet",
       "nameEn": "Bayonet",
-      "name": "Штык",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3583,7 +3471,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bell",
       "nameEn": "Bell",
-      "name": "Колокол",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3613,7 +3500,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "binoculars",
       "nameEn": "Binoculars",
-      "name": "Бинокль",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3631,7 +3517,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "city",
       "nameEn": "City",
-      "name": "Город",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3677,7 +3562,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "day",
       "nameEn": "Day",
-      "name": "День",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3703,7 +3587,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "double rainbow!",
       "nameEn": "Double rainbow!",
-      "name": "Двойная радуга!",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3717,7 +3600,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "electricity",
       "nameEn": "Electricity",
-      "name": "Электричество",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3767,7 +3649,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "excalibur",
       "nameEn": "Excalibur",
-      "name": "Экскалибур",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3801,7 +3682,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fence",
       "nameEn": "Fence",
-      "name": "Забор",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3835,7 +3715,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flamethrower",
       "nameEn": "Flamethrower",
-      "name": "Огнемет",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3857,7 +3736,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fog",
       "nameEn": "Fog",
-      "name": "Туман",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3891,7 +3769,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "galaxy cluster",
       "nameEn": "Galaxy cluster",
-      "name": "Скопление галактик",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3909,7 +3786,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hangar",
       "nameEn": "Hangar",
-      "name": "Ангар",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -3999,7 +3875,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "horizon",
       "nameEn": "Horizon",
-      "name": "Горизонт",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4033,7 +3908,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "jupiter",
       "nameEn": "Jupiter",
-      "name": "Юпитер",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4067,7 +3941,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "life",
       "nameEn": "Life",
-      "name": "Жизнь",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4125,7 +3998,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "light sword",
       "nameEn": "Light sword",
-      "name": "Световой меч",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4155,7 +4027,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lightning",
       "nameEn": "Lightning",
-      "name": "Молния",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4201,7 +4072,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "meteor",
       "nameEn": "Meteor",
-      "name": "Метеор",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4231,7 +4101,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "night",
       "nameEn": "Night",
-      "name": "Ночь",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4257,7 +4126,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paint",
       "nameEn": "Paint",
-      "name": "Краска",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4307,7 +4175,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "park",
       "nameEn": "Park",
-      "name": "Парк",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4349,7 +4216,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "prism",
       "nameEn": "Prism",
-      "name": "Призма",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4375,7 +4241,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rain",
       "nameEn": "Rain",
-      "name": "Дождь",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4397,7 +4262,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ruins",
       "nameEn": "Ruins",
-      "name": "Руины",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4435,7 +4299,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "safety glasses",
       "nameEn": "Safety glasses",
-      "name": "Защитные очки",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4465,7 +4328,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "skyscraper",
       "nameEn": "Skyscraper",
-      "name": "Небоскреб",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4491,7 +4353,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "space",
       "nameEn": "Space",
-      "name": "Космос",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4521,7 +4382,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "storm",
       "nameEn": "Storm",
-      "name": "Шторм",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4547,7 +4407,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "stun gun",
       "nameEn": "Stun gun",
-      "name": "Электрошокер",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4577,7 +4436,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sunglasses",
       "nameEn": "Sunglasses",
-      "name": "Солнцезащитные очки",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4607,7 +4465,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "swim goggles",
       "nameEn": "Swim goggles",
-      "name": "Плавательные очки",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4657,7 +4514,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "water gun",
       "nameEn": "Water gun",
-      "name": "Водяной пистолет",
       "tier": 6,
       "starting": false,
       "special": false,
@@ -4679,7 +4535,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alien",
       "nameEn": "Alien",
-      "name": "Пришелец",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4725,7 +4580,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "animal",
       "nameEn": "Animal",
-      "name": "Животное",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4759,7 +4613,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bacteria",
       "nameEn": "Bacteria",
-      "name": "Бактерии",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4781,7 +4634,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "clock",
       "nameEn": "Clock",
-      "name": "Часы",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4831,7 +4683,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "darkness",
       "nameEn": "Darkness",
-      "name": "Тьма",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4849,7 +4700,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dawn",
       "nameEn": "Dawn",
-      "name": "Рассвет",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4867,7 +4717,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "death",
       "nameEn": "Death",
-      "name": "Смерть",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4897,7 +4746,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "farm",
       "nameEn": "Farm",
-      "name": "Ферма",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4927,7 +4775,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "human",
       "nameEn": "Human",
-      "name": "Человек",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4957,7 +4804,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "light bulb",
       "nameEn": "Light bulb",
-      "name": "Лампочка",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -4979,7 +4825,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "magic",
       "nameEn": "Magic",
-      "name": "Магия",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5005,7 +4850,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ozone",
       "nameEn": "Ozone",
-      "name": "Озон",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5031,7 +4875,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "phoenix",
       "nameEn": "Phoenix",
-      "name": "Феникс",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5057,7 +4900,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "plankton",
       "nameEn": "Plankton",
-      "name": "Планктон",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5091,7 +4933,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "robot",
       "nameEn": "Robot",
-      "name": "Робот",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5125,7 +4966,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "smog",
       "nameEn": "Smog",
-      "name": "Смог",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5155,7 +4995,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snow",
       "nameEn": "Snow",
-      "name": "Снег",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5181,7 +5020,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "soil",
       "nameEn": "Soil",
-      "name": "Почва",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5207,7 +5045,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "spaceship",
       "nameEn": "Spaceship",
-      "name": "Космический корабль",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5249,7 +5086,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "star",
       "nameEn": "Star",
-      "name": "Звезда",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5283,7 +5119,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "twilight",
       "nameEn": "Twilight",
-      "name": "Сумерки",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5301,7 +5136,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "universe",
       "nameEn": "Universe",
-      "name": "Вселенная",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5327,7 +5161,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wind turbine",
       "nameEn": "Wind turbine",
-      "name": "Ветряная турбина",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5353,7 +5186,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wire",
       "nameEn": "Wire",
-      "name": "Проволока",
       "tier": 7,
       "starting": false,
       "special": false,
@@ -5383,7 +5215,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alarm clock",
       "nameEn": "Alarm clock",
-      "name": "Будильник",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5417,7 +5248,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alchemist",
       "nameEn": "Alchemist",
-      "name": "Алхимик",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5435,7 +5265,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "allergy",
       "nameEn": "Allergy",
-      "name": "Аллергия",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5453,7 +5282,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "antarctica",
       "nameEn": "Antarctica",
-      "name": "Антарктида",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5479,7 +5307,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "archeologist",
       "nameEn": "Archeologist",
-      "name": "Археолог",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5497,7 +5324,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "astronaut",
       "nameEn": "Astronaut",
-      "name": "Астронавт",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5555,7 +5381,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "astronomer",
       "nameEn": "Astronomer",
-      "name": "Астроном",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5569,7 +5394,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "beaver",
       "nameEn": "Beaver",
-      "name": "Бобр",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5595,7 +5419,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bird",
       "nameEn": "Bird",
-      "name": "Птица",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5637,7 +5460,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "blizzard",
       "nameEn": "Blizzard",
-      "name": "Метель",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5671,7 +5493,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "blood",
       "nameEn": "Blood",
-      "name": "Кровь",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5689,7 +5510,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "butterfly",
       "nameEn": "Butterfly",
-      "name": "Бабочка",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5715,7 +5535,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cable car",
       "nameEn": "Cable car",
-      "name": "Канатная дорога",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5749,7 +5568,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "camel",
       "nameEn": "Camel",
-      "name": "Верблюд",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5811,7 +5629,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cat",
       "nameEn": "Cat",
-      "name": "Кот",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5833,7 +5650,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chain",
       "nameEn": "Chain",
-      "name": "Цепь",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5859,7 +5675,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cold",
       "nameEn": "Cold",
-      "name": "Холод",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5897,7 +5712,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "constellation",
       "nameEn": "Constellation",
-      "name": "Созвездие",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5911,7 +5725,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "corpse",
       "nameEn": "Corpse",
-      "name": "Труп",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5957,7 +5770,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "crystal ball",
       "nameEn": "Crystal ball",
-      "name": "Хрустальный шар",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -5991,7 +5803,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cyborg",
       "nameEn": "Cyborg",
-      "name": "Киборг",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6049,7 +5860,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dew",
       "nameEn": "Dew",
-      "name": "Роса",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6095,7 +5905,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "domestication",
       "nameEn": "Domestication",
-      "name": "Приручение",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6121,7 +5930,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dynamite",
       "nameEn": "Dynamite",
-      "name": "Динамит",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6143,7 +5951,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "egg",
       "nameEn": "Egg",
-      "name": "Яйцо",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6293,7 +6100,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "electrician",
       "nameEn": "Electrician",
-      "name": "Электрик",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6311,7 +6117,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "family",
       "nameEn": "Family",
-      "name": "Семья",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6333,7 +6138,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "farmer",
       "nameEn": "Farmer",
-      "name": "Фермер",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6371,7 +6175,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "firefighter",
       "nameEn": "Firefighter",
-      "name": "Пожарный",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6393,7 +6196,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fish",
       "nameEn": "Fish",
-      "name": "Рыба",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6435,7 +6237,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "force knight",
       "nameEn": "Force knight",
-      "name": "Рыцарь Силы",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6457,7 +6258,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "frog",
       "nameEn": "Frog",
-      "name": "Лягушка",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6483,7 +6283,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "glacier",
       "nameEn": "Glacier",
-      "name": "Ледник",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6513,7 +6312,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gravestone",
       "nameEn": "Gravestone",
-      "name": "Надгробие",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6547,7 +6345,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hacker",
       "nameEn": "Hacker",
-      "name": "Хакер",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6573,7 +6370,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hero",
       "nameEn": "Hero",
-      "name": "Герой",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6599,7 +6395,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "horse",
       "nameEn": "Horse",
-      "name": "Лошадь",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6641,7 +6436,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "idea",
       "nameEn": "Idea",
-      "name": "Идея",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6775,7 +6569,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "igloo",
       "nameEn": "Igloo",
-      "name": "Иглу",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6801,7 +6594,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lamp",
       "nameEn": "Lamp",
-      "name": "Лампа",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6819,7 +6611,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "light",
       "nameEn": "Light",
-      "name": "Свет",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6837,7 +6628,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "livestock",
       "nameEn": "Livestock",
-      "name": "Домашний скот",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6863,7 +6653,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lizard",
       "nameEn": "Lizard",
-      "name": "Ящерица",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6909,7 +6698,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "love",
       "nameEn": "Love",
-      "name": "Любовь",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -6931,7 +6719,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "meat",
       "nameEn": "Meat",
-      "name": "Мясо",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7105,7 +6892,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "microscope",
       "nameEn": "Microscope",
-      "name": "Микроскоп",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7135,7 +6921,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "monarch",
       "nameEn": "Monarch",
-      "name": "Монарх",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7153,7 +6938,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mummy",
       "nameEn": "Mummy",
-      "name": "Мумия",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7187,7 +6971,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "organic matter",
       "nameEn": "Organic matter",
-      "name": "Органическое вещество",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7213,7 +6996,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "painter",
       "nameEn": "Painter",
-      "name": "Художник",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7235,7 +7017,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pig",
       "nameEn": "Pig",
-      "name": "Свинья",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7257,7 +7038,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "plant",
       "nameEn": "Plant",
-      "name": "Растение",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7307,7 +7087,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "potter",
       "nameEn": "Potter",
-      "name": "Гончар",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7325,7 +7104,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sailor",
       "nameEn": "Sailor",
-      "name": "Моряк",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7359,7 +7137,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "samurai",
       "nameEn": "Samurai",
-      "name": "Самурай",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7373,7 +7150,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "science",
       "nameEn": "Science",
-      "name": "Наука",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7395,7 +7171,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scorpion",
       "nameEn": "Scorpion",
-      "name": "Скорпион",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7425,7 +7200,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "shuriken",
       "nameEn": "Shuriken",
-      "name": "Сюрикен",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7455,7 +7229,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sickness",
       "nameEn": "Sickness",
-      "name": "Болезнь",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7477,7 +7250,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ski goggles",
       "nameEn": "Ski goggles",
-      "name": "Лыжные очки",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7519,7 +7291,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "skier",
       "nameEn": "Skier",
-      "name": "Лыжник",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7541,7 +7312,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sloth",
       "nameEn": "Sloth",
-      "name": "Ленивец",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7559,7 +7329,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snake",
       "nameEn": "Snake",
-      "name": "Змея",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7581,7 +7350,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snow globe",
       "nameEn": "Snow globe",
-      "name": "Снежный шар",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7663,7 +7431,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snowball",
       "nameEn": "Snowball",
-      "name": "Снежок",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7689,7 +7456,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snowman",
       "nameEn": "Snowman",
-      "name": "Снеговик",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7723,7 +7489,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "starfish",
       "nameEn": "Starfish",
-      "name": "Морская звезда",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7745,7 +7510,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sundial",
       "nameEn": "Sundial",
-      "name": "Солнечные часы",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7795,7 +7559,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "surfer",
       "nameEn": "Surfer",
-      "name": "Серфер",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7813,7 +7576,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "swimmer",
       "nameEn": "Swimmer",
-      "name": "Пловец",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7839,7 +7601,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tool",
       "nameEn": "Tool",
-      "name": "Инструмент",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7885,7 +7646,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "turtle",
       "nameEn": "Turtle",
-      "name": "Черепаха",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7907,7 +7667,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ufo",
       "nameEn": "Ufo",
-      "name": "НЛО",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7941,7 +7700,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "warrior",
       "nameEn": "Warrior",
-      "name": "Воин",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7959,7 +7717,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "watch",
       "nameEn": "Watch",
-      "name": "Наручные часы",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -7977,7 +7734,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wizard",
       "nameEn": "Wizard",
-      "name": "Волшебник",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -8003,7 +7759,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wolf",
       "nameEn": "Wolf",
-      "name": "Волк",
       "tier": 8,
       "starting": false,
       "special": false,
@@ -8029,7 +7784,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "airplane",
       "nameEn": "Airplane",
-      "name": "Самолет",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8191,7 +7945,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "algae",
       "nameEn": "Algae",
-      "name": "Водоросли",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8217,7 +7970,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alligator",
       "nameEn": "Alligator",
-      "name": "Аллигатор",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8239,7 +7991,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "angel",
       "nameEn": "Angel",
-      "name": "Ангел",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8273,7 +8024,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "arctic",
       "nameEn": "Arctic",
-      "name": "Арктика",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8291,7 +8041,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ash",
       "nameEn": "Ash",
-      "name": "Пепел",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8353,7 +8102,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bacon",
       "nameEn": "Bacon",
-      "name": "Бекон",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8379,7 +8127,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "birdcage",
       "nameEn": "Birdcage",
-      "name": "Птичья клетка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8405,7 +8152,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "birdhouse",
       "nameEn": "Birdhouse",
-      "name": "Скворечник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8427,7 +8173,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bone",
       "nameEn": "Bone",
-      "name": "Кость",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8457,7 +8202,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "butcher",
       "nameEn": "Butcher",
-      "name": "Мясник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8475,7 +8219,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cactus",
       "nameEn": "Cactus",
-      "name": "Кактус",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8501,7 +8244,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cage",
       "nameEn": "Cage",
-      "name": "Клетка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8559,7 +8301,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "carbon dioxide",
       "nameEn": "Carbon dioxide",
-      "name": "Углекислый газ",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8597,7 +8338,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "carrot",
       "nameEn": "Carrot",
-      "name": "Морковь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8623,7 +8363,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "castle",
       "nameEn": "Castle",
-      "name": "Замок",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8697,7 +8436,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "catnip",
       "nameEn": "Catnip",
-      "name": "Кошачья мята",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8723,7 +8461,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cave",
       "nameEn": "Cave",
-      "name": "Пещера",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8765,7 +8502,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "centaur",
       "nameEn": "Centaur",
-      "name": "Кентавр",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8783,7 +8519,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chameleon",
       "nameEn": "Chameleon",
-      "name": "Хамелеон",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8817,7 +8552,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "charcoal",
       "nameEn": "Charcoal",
-      "name": "Древесный уголь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8843,7 +8577,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chicken",
       "nameEn": "Chicken",
-      "name": "Курица",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8893,7 +8626,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chill",
       "nameEn": "Chill",
-      "name": "Прохлада",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8915,7 +8647,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "coal",
       "nameEn": "Coal",
-      "name": "Уголь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8949,7 +8680,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "computer",
       "nameEn": "Computer",
-      "name": "Компьютер",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -8979,7 +8709,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cotton",
       "nameEn": "Cotton",
-      "name": "Хлопок",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9009,7 +8738,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cow",
       "nameEn": "Cow",
-      "name": "Корова",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9035,7 +8763,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "crow",
       "nameEn": "Crow",
-      "name": "Ворона",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9077,7 +8804,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cuckoo",
       "nameEn": "Cuckoo",
-      "name": "Кукушка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9111,7 +8837,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dinosaur",
       "nameEn": "Dinosaur",
-      "name": "Динозавр",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9129,7 +8854,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dog",
       "nameEn": "Dog",
-      "name": "Собака",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9167,7 +8891,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "don quixote",
       "nameEn": "Don quixote",
-      "name": "Дон Кихот",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9193,7 +8916,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dragon",
       "nameEn": "Dragon",
-      "name": "Дракон",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9231,7 +8953,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "duck",
       "nameEn": "Duck",
-      "name": "Утка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9297,7 +9018,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "eagle",
       "nameEn": "Eagle",
-      "name": "Орел",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9315,7 +9035,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "egg timer",
       "nameEn": "Egg timer",
-      "name": "Таймер для яиц",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9337,7 +9056,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "electric eel",
       "nameEn": "Electric eel",
-      "name": "Электрический угорь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9351,7 +9069,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "family tree",
       "nameEn": "Family tree",
-      "name": "Генеалогическое древо",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9373,7 +9090,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "firestation",
       "nameEn": "Firestation",
-      "name": "Пожарная часть",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9403,7 +9119,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fishing rod",
       "nameEn": "Fishing rod",
-      "name": "Удочка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9461,7 +9176,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flashlight",
       "nameEn": "Flashlight",
-      "name": "Фонарик",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9487,7 +9201,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flower",
       "nameEn": "Flower",
-      "name": "Цветок",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9529,7 +9242,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flying fish",
       "nameEn": "Flying fish",
-      "name": "Летающая рыба",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9551,7 +9263,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fossil",
       "nameEn": "Fossil",
-      "name": "Ископаемое",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9621,7 +9332,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "frankenstein's monster",
       "nameEn": "Frankenstein's monster",
-      "name": "Монстр Франкенштейна",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9663,7 +9373,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fridge",
       "nameEn": "Fridge",
-      "name": "Холодильник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9709,7 +9418,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "garden",
       "nameEn": "Garden",
-      "name": "Сад",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9755,7 +9463,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gas",
       "nameEn": "Gas",
-      "name": "Газ",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9777,7 +9484,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ghost",
       "nameEn": "Ghost",
-      "name": "Призрак",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9843,7 +9549,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "goat",
       "nameEn": "Goat",
-      "name": "Коза",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9877,7 +9582,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "grass",
       "nameEn": "Grass",
-      "name": "Трава",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9895,7 +9599,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "grave",
       "nameEn": "Grave",
-      "name": "Могила",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9941,7 +9644,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "graveyard",
       "nameEn": "Graveyard",
-      "name": "Кладбище",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -9979,7 +9681,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "greenhouse",
       "nameEn": "Greenhouse",
-      "name": "Теплица",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10021,7 +9722,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ham",
       "nameEn": "Ham",
-      "name": "Ветчина",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10039,7 +9739,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hammer",
       "nameEn": "Hammer",
-      "name": "Молот",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10069,7 +9768,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hedge",
       "nameEn": "Hedge",
-      "name": "Живая изгородь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10103,7 +9801,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hippo",
       "nameEn": "Hippo",
-      "name": "Бегемот",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10129,7 +9826,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "horseshoe",
       "nameEn": "Horseshoe",
-      "name": "Подкова",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10147,7 +9843,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hospital",
       "nameEn": "Hospital",
-      "name": "Больница",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10185,7 +9880,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hummingbird",
       "nameEn": "Hummingbird",
-      "name": "Колибри",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10239,7 +9933,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ice",
       "nameEn": "Ice",
-      "name": "Лед",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10265,7 +9958,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "iceberg",
       "nameEn": "Iceberg",
-      "name": "Айсберг",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10299,7 +9991,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ivy",
       "nameEn": "Ivy",
-      "name": "Плющ",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10317,7 +10008,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "jerky",
       "nameEn": "Jerky",
-      "name": "Вяленое мясо",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10343,7 +10033,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "knight",
       "nameEn": "Knight",
-      "name": "Рыцарь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10369,7 +10058,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lava lamp",
       "nameEn": "Lava lamp",
-      "name": "Лавовая лампа",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10391,7 +10079,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "leather",
       "nameEn": "Leather",
-      "name": "Кожа",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10437,7 +10124,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lens",
       "nameEn": "Lens",
-      "name": "Линза",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10455,7 +10141,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lighthouse",
       "nameEn": "Lighthouse",
-      "name": "Маяк",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10497,7 +10182,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lion",
       "nameEn": "Lion",
-      "name": "Лев",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10523,7 +10207,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "liquid",
       "nameEn": "Liquid",
-      "name": "Жидкость",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10545,7 +10228,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "machine",
       "nameEn": "Machine",
-      "name": "Машина",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10583,7 +10265,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "magma",
       "nameEn": "Magma",
-      "name": "Магма",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10601,7 +10282,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "medusa",
       "nameEn": "Medusa",
-      "name": "Медуза",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10627,7 +10307,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mermaid",
       "nameEn": "Mermaid",
-      "name": "Русалка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10661,7 +10340,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mineral",
       "nameEn": "Mineral",
-      "name": "Минерал",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10695,7 +10373,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "moss",
       "nameEn": "Moss",
-      "name": "Мох",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10741,7 +10418,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "moth",
       "nameEn": "Moth",
-      "name": "Мотылек",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10775,7 +10451,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "motion",
       "nameEn": "Motion",
-      "name": "Движение",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10821,7 +10496,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "nest",
       "nameEn": "Nest",
-      "name": "Гнездо",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10863,7 +10537,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ninja",
       "nameEn": "Ninja",
-      "name": "Ниндзя",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10877,7 +10550,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ninja turtle",
       "nameEn": "Ninja turtle",
-      "name": "Черепаха ниндзя",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10899,7 +10571,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "omelette",
       "nameEn": "Omelette",
-      "name": "Омлет",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10921,7 +10592,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "optical fiber",
       "nameEn": "Optical fiber",
-      "name": "Оптическое волокно",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10943,7 +10613,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ostrich",
       "nameEn": "Ostrich",
-      "name": "Страус",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10965,7 +10634,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "owl",
       "nameEn": "Owl",
-      "name": "Сова",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -10991,7 +10659,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "oxygen",
       "nameEn": "Oxygen",
-      "name": "Кислород",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11033,7 +10700,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "peacock",
       "nameEn": "Peacock",
-      "name": "Павлин",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11055,7 +10721,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pegasus",
       "nameEn": "Pegasus",
-      "name": "Пегас",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11081,7 +10746,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "penguin",
       "nameEn": "Penguin",
-      "name": "Пингвин",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11111,7 +10775,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "philosophy",
       "nameEn": "Philosophy",
-      "name": "Философия",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11133,7 +10796,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pigeon",
       "nameEn": "Pigeon",
-      "name": "Голубь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11163,7 +10825,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "piggy bank",
       "nameEn": "Piggy bank",
-      "name": "Копилка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11185,7 +10846,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "piranha",
       "nameEn": "Piranha",
-      "name": "Пиранья",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11203,7 +10863,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pirate",
       "nameEn": "Pirate",
-      "name": "Пират",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11229,7 +10888,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "platypus",
       "nameEn": "Platypus",
-      "name": "Утконос",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11251,7 +10909,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pollen",
       "nameEn": "Pollen",
-      "name": "Пыльца",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11277,7 +10934,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pottery",
       "nameEn": "Pottery",
-      "name": "Керамика",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11295,7 +10951,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "reed",
       "nameEn": "Reed",
-      "name": "Тростник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11337,7 +10992,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ring",
       "nameEn": "Ring",
-      "name": "Кольцо",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11375,7 +11029,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "roe",
       "nameEn": "Roe",
-      "name": "Рыбья икра",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11409,7 +11062,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rope",
       "nameEn": "Rope",
-      "name": "Веревка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11443,7 +11095,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rose",
       "nameEn": "Rose",
-      "name": "Роза",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11469,7 +11120,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "saddle",
       "nameEn": "Saddle",
-      "name": "Седло",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11491,7 +11141,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seagull",
       "nameEn": "Seagull",
-      "name": "Чайка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11537,7 +11186,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seahorse",
       "nameEn": "Seahorse",
-      "name": "Морской конек",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11567,7 +11215,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seasickness",
       "nameEn": "Seasickness",
-      "name": "Морская болезнь",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11601,7 +11248,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seaweed",
       "nameEn": "Seaweed",
-      "name": "Морские водоросли",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11631,7 +11277,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "shark",
       "nameEn": "Shark",
-      "name": "Акула",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11665,7 +11310,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sheep",
       "nameEn": "Sheep",
-      "name": "Овца",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11699,7 +11343,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "skeleton",
       "nameEn": "Skeleton",
-      "name": "Скелет",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11721,7 +11364,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snowboard",
       "nameEn": "Snowboard",
-      "name": "Сноуборд",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11755,7 +11397,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "solid",
       "nameEn": "Solid",
-      "name": "Твёрдое тело",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11773,7 +11414,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "spotlight",
       "nameEn": "Spotlight",
-      "name": "Прожектор",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11795,7 +11435,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steak",
       "nameEn": "Steak",
-      "name": "Стейк",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11821,7 +11460,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "stethoscope",
       "nameEn": "Stethoscope",
-      "name": "Стетоскоп",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11851,7 +11489,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "story",
       "nameEn": "Story",
-      "name": "История",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11869,7 +11506,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sunflower",
       "nameEn": "Sunflower",
-      "name": "Подсолнечник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11887,7 +11523,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "swordfish",
       "nameEn": "Swordfish",
-      "name": "Рыба-меч",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11913,7 +11548,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tobacco",
       "nameEn": "Tobacco",
-      "name": "Табак",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11935,7 +11569,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "toolbox",
       "nameEn": "Toolbox",
-      "name": "Ящик для инструментов",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -11989,7 +11622,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "toucan",
       "nameEn": "Toucan",
-      "name": "Тукан",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12023,7 +11655,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tree",
       "nameEn": "Tree",
-      "name": "Дерево",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12049,7 +11680,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "umbrella",
       "nameEn": "Umbrella",
-      "name": "Зонтик",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12075,7 +11705,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "unicorn",
       "nameEn": "Unicorn",
-      "name": "Единорог",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12105,7 +11734,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vampire",
       "nameEn": "Vampire",
-      "name": "Вампир",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12127,7 +11755,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vegetable",
       "nameEn": "Vegetable",
-      "name": "Овощ",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12157,7 +11784,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vulture",
       "nameEn": "Vulture",
-      "name": "Стервятник",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12227,7 +11853,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wand",
       "nameEn": "Wand",
-      "name": "Волшебная палочка",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12253,7 +11878,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "werewolf",
       "nameEn": "Werewolf",
-      "name": "Оборотень",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12275,7 +11899,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wheel",
       "nameEn": "Wheel",
-      "name": "Колесо",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12313,7 +11936,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wild boar",
       "nameEn": "Wild boar",
-      "name": "Дикий кабан",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12335,7 +11957,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "windsurfer",
       "nameEn": "Windsurfer",
-      "name": "Виндсерфер",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12349,7 +11970,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "zombie",
       "nameEn": "Zombie",
-      "name": "Зомби",
       "tier": 9,
       "starting": false,
       "special": false,
@@ -12379,7 +11999,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alpaca",
       "nameEn": "Alpaca",
-      "name": "Альпака",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12401,7 +12020,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "angler",
       "nameEn": "Angler",
-      "name": "Рыболов",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12419,7 +12037,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ant",
       "nameEn": "Ant",
-      "name": "Муравей",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12437,7 +12054,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "battery",
       "nameEn": "Battery",
-      "name": "Батарея",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12463,7 +12079,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bee",
       "nameEn": "Bee",
-      "name": "Пчела",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12481,7 +12096,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bicycle",
       "nameEn": "Bicycle",
-      "name": "Велосипед",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12503,7 +12117,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "big",
       "nameEn": "Big",
-      "name": "Большой",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12537,7 +12150,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bonsai tree",
       "nameEn": "Bonsai tree",
-      "name": "Дерево бонсай",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12563,7 +12175,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cannon",
       "nameEn": "Cannon",
-      "name": "Пушка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12589,7 +12200,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "car",
       "nameEn": "Car",
-      "name": "Автомобиль",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12635,7 +12245,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cauldron",
       "nameEn": "Cauldron",
-      "name": "Котёл",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12669,7 +12278,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "caviar",
       "nameEn": "Caviar",
-      "name": "Икра",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12687,7 +12295,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chicken coop",
       "nameEn": "Chicken coop",
-      "name": "Курятник",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12725,7 +12332,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chicken soup",
       "nameEn": "Chicken soup",
-      "name": "Куриный суп",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12751,7 +12357,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chicken wing",
       "nameEn": "Chicken wing",
-      "name": "Куриное крылышко",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12769,7 +12374,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "christmas tree",
       "nameEn": "Christmas tree",
-      "name": "Рождественская елка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12799,7 +12403,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "coconut",
       "nameEn": "Coconut",
-      "name": "Кокос",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12833,7 +12436,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "combustion engine",
       "nameEn": "Combustion engine",
-      "name": "Двигатель внутреннего сгорания",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12863,7 +12465,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "computer mouse",
       "nameEn": "Computer mouse",
-      "name": "Компьютерная мышь",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12881,7 +12482,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "container",
       "nameEn": "Container",
-      "name": "Контейнер",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12915,7 +12515,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cook",
       "nameEn": "Cook",
-      "name": "Повар",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12941,7 +12540,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "coral",
       "nameEn": "Coral",
-      "name": "Коралл",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12975,7 +12573,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cyclist",
       "nameEn": "Cyclist",
-      "name": "Велосипедист",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -12993,7 +12590,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "diamond",
       "nameEn": "Diamond",
-      "name": "Алмаз",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13007,7 +12603,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "doctor",
       "nameEn": "Doctor",
-      "name": "Доктор",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13025,7 +12620,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "doge",
       "nameEn": "Doge",
-      "name": "Дож",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13043,7 +12637,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "doghouse",
       "nameEn": "Doghouse",
-      "name": "Собачья будка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13077,7 +12670,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "drone",
       "nameEn": "Drone",
-      "name": "Дрон",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13103,7 +12695,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dry ice",
       "nameEn": "Dry ice",
-      "name": "Сухой лед",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13121,7 +12712,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "duckling",
       "nameEn": "Duckling",
-      "name": "Утенок",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13135,7 +12725,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "engineer",
       "nameEn": "Engineer",
-      "name": "Инженер",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13153,7 +12742,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fairy tale",
       "nameEn": "Fairy tale",
-      "name": "Сказка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13191,7 +12779,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "faun",
       "nameEn": "Faun",
-      "name": "Фавн",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13233,7 +12820,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fire extinguisher",
       "nameEn": "Fire extinguisher",
-      "name": "Огнетушитель",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13263,7 +12849,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "forest",
       "nameEn": "Forest",
-      "name": "Лес",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13289,7 +12874,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fox",
       "nameEn": "Fox",
-      "name": "Лиса",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13323,7 +12907,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fruit",
       "nameEn": "Fruit",
-      "name": "Фрукты",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13357,7 +12940,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gardener",
       "nameEn": "Gardener",
-      "name": "Садовник",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13375,7 +12957,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gnome",
       "nameEn": "Gnome",
-      "name": "Гном",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13401,7 +12982,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "golem",
       "nameEn": "Golem",
-      "name": "Голем",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13431,7 +13011,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hail",
       "nameEn": "Hail",
-      "name": "Град",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13465,7 +13044,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "harp",
       "nameEn": "Harp",
-      "name": "Арфа",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13491,7 +13069,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hay",
       "nameEn": "Hay",
-      "name": "Сено",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13541,7 +13118,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "helicopter",
       "nameEn": "Helicopter",
-      "name": "Вертолет",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13575,7 +13151,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "husky",
       "nameEn": "Husky",
-      "name": "Хаски",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13609,7 +13184,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "internet",
       "nameEn": "Internet",
-      "name": "Интернет",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13635,7 +13209,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "jack-o'-lantern",
       "nameEn": "Jack-o'-lantern",
-      "name": "Фонарь из тыквы",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13681,7 +13254,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "juice",
       "nameEn": "Juice",
-      "name": "Сок",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13735,7 +13307,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "kaiju",
       "nameEn": "Kaiju",
-      "name": "Кайдзю",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13769,7 +13340,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lasso",
       "nameEn": "Lasso",
-      "name": "Лассо",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13803,7 +13373,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lawn",
       "nameEn": "Lawn",
-      "name": "Газон",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13829,7 +13398,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lawn mower",
       "nameEn": "Lawn mower",
-      "name": "Газонокосилка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13875,7 +13443,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "leaf",
       "nameEn": "Leaf",
-      "name": "Лист",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13901,7 +13468,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "legend",
       "nameEn": "Legend",
-      "name": "Легенда",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13935,7 +13501,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "lumberjack",
       "nameEn": "Lumberjack",
-      "name": "Лесоруб",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13961,7 +13526,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "manatee",
       "nameEn": "Manatee",
-      "name": "Ламантин",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -13991,7 +13555,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "milk",
       "nameEn": "Milk",
-      "name": "Молоко",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14033,7 +13596,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "minotaur",
       "nameEn": "Minotaur",
-      "name": "Минотавр",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14063,7 +13625,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mold",
       "nameEn": "Mold",
-      "name": "Плесень",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14097,7 +13658,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "monkey",
       "nameEn": "Monkey",
-      "name": "Обезьяна",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14111,7 +13671,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mountain goat",
       "nameEn": "Mountain goat",
-      "name": "Горный козел",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14129,7 +13688,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "narwhal",
       "nameEn": "Narwhal",
-      "name": "Нарвал",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14167,7 +13725,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "nessie",
       "nameEn": "Nessie",
-      "name": "Несси",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14193,7 +13750,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "net",
       "nameEn": "Net",
-      "name": "Сеть",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14223,7 +13779,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "nuts",
       "nameEn": "Nuts",
-      "name": "Орехи",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14245,7 +13800,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "oil",
       "nameEn": "Oil",
-      "name": "Масло",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14271,7 +13825,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ore",
       "nameEn": "Ore",
-      "name": "Руда",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14305,7 +13858,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paleontologist",
       "nameEn": "Paleontologist",
-      "name": "Палеонтолог",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14331,7 +13883,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "palm",
       "nameEn": "Palm",
-      "name": "Пальма",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14353,7 +13904,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "parachute",
       "nameEn": "Parachute",
-      "name": "Парашют",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14387,7 +13937,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "parrot",
       "nameEn": "Parrot",
-      "name": "Попугай",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14413,7 +13962,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "peat",
       "nameEn": "Peat",
-      "name": "Торф",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14439,7 +13987,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "perfume",
       "nameEn": "Perfume",
-      "name": "Духи",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14485,7 +14032,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "petroleum",
       "nameEn": "Petroleum",
-      "name": "Нефть",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14511,7 +14057,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pilot",
       "nameEn": "Pilot",
-      "name": "Пилот",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14529,7 +14074,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pipe",
       "nameEn": "Pipe",
-      "name": "Труба",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14547,7 +14091,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pirate ship",
       "nameEn": "Pirate ship",
-      "name": "Пиратский корабль",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14577,7 +14120,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "polar bear",
       "nameEn": "Polar bear",
-      "name": "Белый медведь",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14595,7 +14137,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "potato",
       "nameEn": "Potato",
-      "name": "Картофель",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14609,7 +14150,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pterodactyl",
       "nameEn": "Pterodactyl",
-      "name": "Птеродактиль",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14643,7 +14183,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pumpkin",
       "nameEn": "Pumpkin",
-      "name": "Тыква",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14669,7 +14208,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "quicksilver",
       "nameEn": "Quicksilver",
-      "name": "Ртуть",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14683,7 +14221,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rabbit",
       "nameEn": "Rabbit",
-      "name": "Кролик",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14701,7 +14238,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rivulet",
       "nameEn": "Rivulet",
-      "name": "Речушка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14719,7 +14255,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sand castle",
       "nameEn": "Sand castle",
-      "name": "Замок из песка",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14745,7 +14280,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sap",
       "nameEn": "Sap",
-      "name": "Древесный сок",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14759,7 +14293,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "saturn",
       "nameEn": "Saturn",
-      "name": "Сатурн",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14777,7 +14310,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scalpel",
       "nameEn": "Scalpel",
-      "name": "Скальпель",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14811,7 +14343,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scythe",
       "nameEn": "Scythe",
-      "name": "Коса",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14845,7 +14376,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seal",
       "nameEn": "Seal",
-      "name": "Тюлень",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14875,7 +14405,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seaplane",
       "nameEn": "Seaplane",
-      "name": "Гидросамолет",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14901,7 +14430,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "seed",
       "nameEn": "Seed",
-      "name": "Семена",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14923,7 +14451,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "skateboard",
       "nameEn": "Skateboard",
-      "name": "Скейтборд",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -14945,7 +14472,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "small",
       "nameEn": "Small",
-      "name": "Маленький",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15003,7 +14529,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snowboarder",
       "nameEn": "Snowboarder",
-      "name": "Сноубордист",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15017,7 +14542,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "soda",
       "nameEn": "Soda",
-      "name": "Сода",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15039,7 +14563,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sphinx",
       "nameEn": "Sphinx",
-      "name": "Сфинкс",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15065,7 +14588,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "statue",
       "nameEn": "Statue",
-      "name": "Статуя",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15211,7 +14733,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steam engine",
       "nameEn": "Steam engine",
-      "name": "Паровой двигатель",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15233,7 +14754,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steel",
       "nameEn": "Steel",
-      "name": "Сталь",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15259,7 +14779,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "stream",
       "nameEn": "Stream",
-      "name": "Поток",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15281,7 +14800,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sushi",
       "nameEn": "Sushi",
-      "name": "Суши",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15299,7 +14817,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "swamp",
       "nameEn": "Swamp",
-      "name": "Болото",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15341,7 +14858,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "the one ring",
       "nameEn": "The one ring",
-      "name": "Кольцо Всевластия",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15359,7 +14875,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "thread",
       "nameEn": "Thread",
-      "name": "Нить",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15385,7 +14900,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "treehouse",
       "nameEn": "Treehouse",
-      "name": "Домик на дереве",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15403,7 +14917,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "trojan horse",
       "nameEn": "Trojan horse",
-      "name": "Троянский конь",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15425,7 +14938,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tunnel",
       "nameEn": "Tunnel",
-      "name": "Туннель",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15471,7 +14983,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tyrannosaurus rex",
       "nameEn": "Tyrannosaurus rex",
-      "name": "Тираннозавр рекс",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15493,7 +15004,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vase",
       "nameEn": "Vase",
-      "name": "Ваза",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15535,7 +15045,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "water lily",
       "nameEn": "Water lily",
-      "name": "Водяная лилия",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15561,7 +15070,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wheat",
       "nameEn": "Wheat",
-      "name": "Пшеница",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15583,7 +15091,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wood",
       "nameEn": "Wood",
-      "name": "Древесина",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15641,7 +15148,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "woodpecker",
       "nameEn": "Woodpecker",
-      "name": "Дятел",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15663,7 +15169,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wool",
       "nameEn": "Wool",
-      "name": "Шерсть",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15685,7 +15190,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "yeti",
       "nameEn": "Yeti",
-      "name": "Йети",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15743,7 +15247,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "zoo",
       "nameEn": "Zoo",
-      "name": "Зоопарк",
       "tier": 10,
       "starting": false,
       "special": false,
@@ -15761,7 +15264,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "alcohol",
       "nameEn": "Alcohol",
-      "name": "Алкоголь",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15787,7 +15289,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ambulance",
       "nameEn": "Ambulance",
-      "name": "Скорая помощь",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15805,7 +15306,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ant farm",
       "nameEn": "Ant farm",
-      "name": "Муравьиная ферма",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15835,7 +15335,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "anthill",
       "nameEn": "Anthill",
-      "name": "Муравейник",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15869,7 +15368,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "arrow",
       "nameEn": "Arrow",
-      "name": "Стрела",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15887,7 +15385,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "aviary",
       "nameEn": "Aviary",
-      "name": "Вольер",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15901,7 +15398,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "axe",
       "nameEn": "Axe",
-      "name": "Топор",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15931,7 +15427,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "banana",
       "nameEn": "Banana",
-      "name": "Банан",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15945,7 +15440,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "beehive",
       "nameEn": "Beehive",
-      "name": "Улей",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -15979,7 +15473,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "beekeeper",
       "nameEn": "Beekeeper",
-      "name": "Пчеловод",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16005,7 +15498,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "blood bag",
       "nameEn": "Blood bag",
-      "name": "Мешок с кровью",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16027,7 +15519,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "boat",
       "nameEn": "Boat",
-      "name": "Лодка",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16057,7 +15548,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "book",
       "nameEn": "Book",
-      "name": "Книга",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16095,7 +15585,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bottle",
       "nameEn": "Bottle",
-      "name": "Бутылка",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16153,7 +15642,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "boulder",
       "nameEn": "Boulder",
-      "name": "Валун",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16187,7 +15675,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bow",
       "nameEn": "Bow",
-      "name": "Лук",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16213,7 +15700,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "broom",
       "nameEn": "Broom",
-      "name": "Метла",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16231,7 +15717,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bucket",
       "nameEn": "Bucket",
-      "name": "Ведро",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16269,7 +15754,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bus",
       "nameEn": "Bus",
-      "name": "Автобус",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16295,7 +15779,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "butter",
       "nameEn": "Butter",
-      "name": "Сливочное масло",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16321,7 +15804,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "butterfly net",
       "nameEn": "Butterfly net",
-      "name": "Сетка для бабочек",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16339,7 +15821,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "campfire",
       "nameEn": "Campfire",
-      "name": "Костер",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16353,7 +15834,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cart",
       "nameEn": "Cart",
-      "name": "Телега",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16367,7 +15847,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cashmere",
       "nameEn": "Cashmere",
-      "name": "Кашемир",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16397,7 +15876,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cereal",
       "nameEn": "Cereal",
-      "name": "Хлопья",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16419,7 +15897,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chainsaw",
       "nameEn": "Chainsaw",
-      "name": "Бензопила",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16449,7 +15926,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cheese",
       "nameEn": "Cheese",
-      "name": "Сыр",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16475,7 +15951,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "christmas stocking",
       "nameEn": "Christmas stocking",
-      "name": "Рождественский чулок",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16501,7 +15976,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "closet",
       "nameEn": "Closet",
-      "name": "Шкаф",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16531,7 +16005,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "coconut milk",
       "nameEn": "Coconut milk",
-      "name": "Кокосовое молоко",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16565,7 +16038,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "coffin",
       "nameEn": "Coffin",
-      "name": "Гроб",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16587,7 +16059,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cutting board",
       "nameEn": "Cutting board",
-      "name": "Разделочная доска",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16601,7 +16072,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "drum",
       "nameEn": "Drum",
-      "name": "Барабан",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16623,7 +16093,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "electric car",
       "nameEn": "Electric car",
-      "name": "Электромобиль",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16657,7 +16126,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fabric",
       "nameEn": "Fabric",
-      "name": "Ткань",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16679,7 +16147,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fireplace",
       "nameEn": "Fireplace",
-      "name": "Камин",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16709,7 +16176,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "firetruck",
       "nameEn": "Firetruck",
-      "name": "Пожарная машина",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16743,7 +16209,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flour",
       "nameEn": "Flour",
-      "name": "Мука",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16773,7 +16238,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flute",
       "nameEn": "Flute",
-      "name": "Флейта",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16791,7 +16255,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fountain",
       "nameEn": "Fountain",
-      "name": "Фонтан",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16809,7 +16272,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "french fries",
       "nameEn": "French fries",
-      "name": "Картошка фри",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16831,7 +16293,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fruit tree",
       "nameEn": "Fruit tree",
-      "name": "Фруктовое дерево",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -16853,7 +16314,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "garage",
       "nameEn": "Garage",
-      "name": "Гараж",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17023,7 +16483,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "grim reaper",
       "nameEn": "Grim reaper",
-      "name": "Мрачный жнец",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17061,7 +16520,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gust",
       "nameEn": "Gust",
-      "name": "Порыв",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17079,7 +16537,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hay bale",
       "nameEn": "Hay bale",
-      "name": "Тюк сена",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17105,7 +16562,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hill",
       "nameEn": "Hill",
-      "name": "Холм",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17135,7 +16591,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "honey",
       "nameEn": "Honey",
-      "name": "Мед",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17165,7 +16620,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ice cream",
       "nameEn": "Ice cream",
-      "name": "Мороженое",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17187,7 +16641,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ice sculpture",
       "nameEn": "Ice sculpture",
-      "name": "Ледяная скульптура",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17201,7 +16654,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "jam",
       "nameEn": "Jam",
-      "name": "Варенье",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17231,7 +16683,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "knife",
       "nameEn": "Knife",
-      "name": "Нож",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17249,7 +16700,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "laptop",
       "nameEn": "Laptop",
-      "name": "Ноутбук",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17263,7 +16713,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "little alchemy (element)",
       "nameEn": "Little alchemy (element)",
-      "name": "Little Alchemy",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17277,7 +16726,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "log cabin",
       "nameEn": "Log cabin",
-      "name": "Бревенчатый домик",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17291,7 +16739,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "maple syrup",
       "nameEn": "Maple syrup",
-      "name": "Кленовый сироп",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17309,7 +16756,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mayonnaise",
       "nameEn": "Mayonnaise",
-      "name": "Майонез",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17323,7 +16769,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "moon rover",
       "nameEn": "Moon rover",
-      "name": "Луноход",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17341,7 +16786,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "motorcycle",
       "nameEn": "Motorcycle",
-      "name": "Мотоцикл",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17371,7 +16815,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "needle",
       "nameEn": "Needle",
-      "name": "Игла",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17393,7 +16836,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paper",
       "nameEn": "Paper",
-      "name": "Бумага",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17419,7 +16861,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "peanut butter",
       "nameEn": "Peanut butter",
-      "name": "Арахисовое масло",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17437,7 +16878,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pebble",
       "nameEn": "Pebble",
-      "name": "Галька",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17459,7 +16899,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pencil",
       "nameEn": "Pencil",
-      "name": "Карандаш",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17477,7 +16916,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "penicillin",
       "nameEn": "Penicillin",
-      "name": "Пенициллин",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17503,7 +16941,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pinocchio",
       "nameEn": "Pinocchio",
-      "name": "Пиноккио",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17525,7 +16962,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pitchfork",
       "nameEn": "Pitchfork",
-      "name": "Вилы",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17551,7 +16987,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "popsicle",
       "nameEn": "Popsicle",
-      "name": "Эскимо",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17577,7 +17012,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "quicksand",
       "nameEn": "Quicksand",
-      "name": "Зыбучие пески",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17591,7 +17025,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rainforest",
       "nameEn": "Rainforest",
-      "name": "Тропический лес",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17605,7 +17038,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rat",
       "nameEn": "Rat",
-      "name": "Крыса",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17647,7 +17079,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "reindeer",
       "nameEn": "Reindeer",
-      "name": "Северный олень",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17677,7 +17108,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "restaurant",
       "nameEn": "Restaurant",
-      "name": "Ресторан",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17691,7 +17121,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "roller coaster",
       "nameEn": "Roller coaster",
-      "name": "Американские горки",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17717,7 +17146,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rv",
       "nameEn": "Rv",
-      "name": "Дом на колёсах",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17735,7 +17163,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sack",
       "nameEn": "Sack",
-      "name": "Мешок",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17757,7 +17184,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "santa",
       "nameEn": "Santa",
-      "name": "Санта",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17791,7 +17217,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scarecrow",
       "nameEn": "Scarecrow",
-      "name": "Пугало",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17833,7 +17258,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "scuba tank",
       "nameEn": "Scuba tank",
-      "name": "Акваланг",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17855,7 +17279,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sewing machine",
       "nameEn": "Sewing machine",
-      "name": "Швейная машина",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17889,7 +17312,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "shovel",
       "nameEn": "Shovel",
-      "name": "Лопата",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17903,7 +17325,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "silo",
       "nameEn": "Silo",
-      "name": "Силосная башня",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17941,7 +17362,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "smoothie",
       "nameEn": "Smoothie",
-      "name": "Смузи",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17963,7 +17383,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "snowmobile",
       "nameEn": "Snowmobile",
-      "name": "Снегоход",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -17997,7 +17416,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "soap",
       "nameEn": "Soap",
-      "name": "Мыло",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18027,7 +17445,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "spider",
       "nameEn": "Spider",
-      "name": "Паук",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18049,7 +17466,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "squirrel",
       "nameEn": "Squirrel",
-      "name": "Белка",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18075,7 +17491,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steamboat",
       "nameEn": "Steamboat",
-      "name": "Пароход",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18105,7 +17520,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "steel wool",
       "nameEn": "Steel wool",
-      "name": "Стальная вата",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18127,7 +17541,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sugar",
       "nameEn": "Sugar",
-      "name": "Сахар",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18177,7 +17590,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sweater",
       "nameEn": "Sweater",
-      "name": "Свитер",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18195,7 +17607,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tailor",
       "nameEn": "Tailor",
-      "name": "Портной",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18217,7 +17628,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tank",
       "nameEn": "Tank",
-      "name": "Танк",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18243,7 +17653,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tea",
       "nameEn": "Tea",
-      "name": "Чай",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18265,7 +17674,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "thermometer",
       "nameEn": "Thermometer",
-      "name": "Термометр",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18287,7 +17695,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "titanic",
       "nameEn": "Titanic",
-      "name": "Титаник",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18313,7 +17720,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tractor",
       "nameEn": "Tractor",
-      "name": "Трактор",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18347,7 +17753,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "train",
       "nameEn": "Train",
-      "name": "Поезд",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18373,7 +17778,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vault",
       "nameEn": "Vault",
-      "name": "Хранилище",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18387,7 +17791,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "water pipe",
       "nameEn": "Water pipe",
-      "name": "Водопроводная труба",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18401,7 +17804,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "witch",
       "nameEn": "Witch",
-      "name": "Ведьма",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18443,7 +17845,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "yogurt",
       "nameEn": "Yogurt",
-      "name": "Йогурт",
       "tier": 11,
       "starting": false,
       "special": false,
@@ -18461,7 +17862,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "apron",
       "nameEn": "Apron",
-      "name": "Фартук",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18479,7 +17879,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "armor",
       "nameEn": "Armor",
-      "name": "Броня",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18497,7 +17896,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bandage",
       "nameEn": "Bandage",
-      "name": "Бинт",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18519,7 +17917,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "batter",
       "nameEn": "Batter",
-      "name": "Жидкое тесто",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18537,7 +17934,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bbq",
       "nameEn": "Bbq",
-      "name": "Барбекю",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18567,7 +17963,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "beer",
       "nameEn": "Beer",
-      "name": "Пиво",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18581,7 +17976,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "box",
       "nameEn": "Box",
-      "name": "Коробка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18619,7 +18013,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "candy cane",
       "nameEn": "Candy cane",
-      "name": "Конфета-трость",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18645,7 +18038,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "canvas",
       "nameEn": "Canvas",
-      "name": "Холст",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18659,7 +18051,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "caramel",
       "nameEn": "Caramel",
-      "name": "Карамель",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18673,7 +18064,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chocolate",
       "nameEn": "Chocolate",
-      "name": "Шоколад",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18699,7 +18089,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cigarette",
       "nameEn": "Cigarette",
-      "name": "Сигарета",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18713,7 +18102,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "confetti",
       "nameEn": "Confetti",
-      "name": "Конфетти",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18731,7 +18119,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cookbook",
       "nameEn": "Cookbook",
-      "name": "Поваренная книга",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18749,7 +18136,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cotton candy",
       "nameEn": "Cotton candy",
-      "name": "Сладкая вата",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18771,7 +18157,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "crayon",
       "nameEn": "Crayon",
-      "name": "Мелок",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18805,7 +18190,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cup",
       "nameEn": "Cup",
-      "name": "Чашка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18839,7 +18223,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "diver",
       "nameEn": "Diver",
-      "name": "Дайвер",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18869,7 +18252,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "dough",
       "nameEn": "Dough",
-      "name": "Тесто",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18891,7 +18273,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "drunk",
       "nameEn": "Drunk",
-      "name": "Пьяный",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18913,7 +18294,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "excavator",
       "nameEn": "Excavator",
-      "name": "Экскаватор",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18931,7 +18311,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "flying squirrel",
       "nameEn": "Flying squirrel",
-      "name": "Летяга",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18973,7 +18352,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fork",
       "nameEn": "Fork",
-      "name": "Вилка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -18987,7 +18365,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "frozen yogurt",
       "nameEn": "Frozen yogurt",
-      "name": "Замороженный йогурт",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19005,7 +18382,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gift",
       "nameEn": "Gift",
-      "name": "Подарок",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19055,7 +18431,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hamburger",
       "nameEn": "Hamburger",
-      "name": "Гамбургер",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19073,7 +18448,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hamster",
       "nameEn": "Hamster",
-      "name": "Хомяк",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19099,7 +18473,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hedgehog",
       "nameEn": "Hedgehog",
-      "name": "Ежик",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19121,7 +18494,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ice cream truck",
       "nameEn": "Ice cream truck",
-      "name": "Грузовик с мороженым",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19143,7 +18515,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "iced tea",
       "nameEn": "Iced tea",
-      "name": "Холодный чай",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19161,7 +18532,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "jar",
       "nameEn": "Jar",
-      "name": "Банка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19187,7 +18557,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "kite",
       "nameEn": "Kite",
-      "name": "Воздушный змей",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19209,7 +18578,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "letter",
       "nameEn": "Letter",
-      "name": "Письмо",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19223,7 +18591,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "library",
       "nameEn": "Library",
-      "name": "Библиотека",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19241,7 +18608,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "map",
       "nameEn": "Map",
-      "name": "Карта",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19295,7 +18661,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "marshmallows",
       "nameEn": "Marshmallows",
-      "name": "Зефир",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19309,7 +18674,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "milk shake",
       "nameEn": "Milk shake",
-      "name": "Молочный коктейль",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19331,7 +18695,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "money",
       "nameEn": "Money",
-      "name": "Деньги",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19353,7 +18716,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mouse",
       "nameEn": "Mouse",
-      "name": "Мышь",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19383,7 +18745,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mousetrap",
       "nameEn": "Mousetrap",
-      "name": "Мышеловка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19409,7 +18770,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "musician",
       "nameEn": "Musician",
-      "name": "Музыкант",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19439,7 +18799,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "newspaper",
       "nameEn": "Newspaper",
-      "name": "Газета",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19461,7 +18820,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "orchard",
       "nameEn": "Orchard",
-      "name": "Фруктовый сад",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19499,7 +18857,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "origami",
       "nameEn": "Origami",
-      "name": "Оригами",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19573,7 +18930,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pan flute",
       "nameEn": "Pan flute",
-      "name": "Пан-флейта",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19587,7 +18943,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paper airplane",
       "nameEn": "Paper airplane",
-      "name": "Бумажный самолетик",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19601,7 +18956,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pasta",
       "nameEn": "Pasta",
-      "name": "Макароны",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19615,7 +18969,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pencil sharpener",
       "nameEn": "Pencil sharpener",
-      "name": "Точилка для карандашей",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19637,7 +18990,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pizza",
       "nameEn": "Pizza",
-      "name": "Пицца",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19659,7 +19011,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "printer",
       "nameEn": "Printer",
-      "name": "Принтер",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19677,7 +19028,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "recipe",
       "nameEn": "Recipe",
-      "name": "Рецепт",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19739,7 +19089,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "robot vacuum",
       "nameEn": "Robot vacuum",
-      "name": "Робот-пылесос",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19765,7 +19114,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "rock",
       "nameEn": "Rock",
-      "name": "Скала",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19787,7 +19135,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "ruler",
       "nameEn": "Ruler",
-      "name": "Линейка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19801,7 +19148,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sailboat",
       "nameEn": "Sailboat",
-      "name": "Парусник",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19827,7 +19173,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sandpaper",
       "nameEn": "Sandpaper",
-      "name": "Наждачная бумага",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19845,7 +19190,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sleigh",
       "nameEn": "Sleigh",
-      "name": "Сани",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19887,7 +19231,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "smoke signal",
       "nameEn": "Smoke signal",
-      "name": "Дымовой сигнал",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19909,7 +19252,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "spoon",
       "nameEn": "Spoon",
-      "name": "Ложка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19923,7 +19265,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sprinkles",
       "nameEn": "Sprinkles",
-      "name": "Кондитерская посыпка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19949,7 +19290,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "syringe",
       "nameEn": "Syringe",
-      "name": "Шприц",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19967,7 +19307,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tablet",
       "nameEn": "Tablet",
-      "name": "Планшет",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -19981,7 +19320,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "tent",
       "nameEn": "Tent",
-      "name": "Палатка",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20007,7 +19345,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "trainyard",
       "nameEn": "Trainyard",
-      "name": "Железнодорожное депо",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20033,7 +19370,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vacuum cleaner",
       "nameEn": "Vacuum cleaner",
-      "name": "Пылесос",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20051,7 +19387,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vine",
       "nameEn": "Vine",
-      "name": "Лоза",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20073,7 +19408,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wagon",
       "nameEn": "Wagon",
-      "name": "Вагон",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20103,7 +19437,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wax",
       "nameEn": "Wax",
-      "name": "Воск",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20137,7 +19470,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "web",
       "nameEn": "Web",
-      "name": "Паутина",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20163,7 +19495,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wine",
       "nameEn": "Wine",
-      "name": "Вино",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20185,7 +19516,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "wrapping paper",
       "nameEn": "Wrapping paper",
-      "name": "Упаковочная бумага",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20211,7 +19541,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "writer",
       "nameEn": "Writer",
-      "name": "Писатель",
       "tier": 12,
       "starting": false,
       "special": false,
@@ -20229,7 +19558,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "armadillo",
       "nameEn": "Armadillo",
-      "name": "Броненосец",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20251,7 +19579,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "baker",
       "nameEn": "Baker",
-      "name": "Пекарь",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20305,7 +19632,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "banana bread",
       "nameEn": "Banana bread",
-      "name": "Банановый хлеб",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20323,7 +19649,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "barrel",
       "nameEn": "Barrel",
-      "name": "Бочка",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20341,7 +19666,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bat",
       "nameEn": "Bat",
-      "name": "Летучая мышь",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20371,7 +19695,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bread",
       "nameEn": "Bread",
-      "name": "Хлеб",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20389,7 +19712,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bulletproof vest",
       "nameEn": "Bulletproof vest",
-      "name": "Бронежилет",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20407,7 +19729,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "candle",
       "nameEn": "Candle",
-      "name": "Свеча",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20437,7 +19758,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cheeseburger",
       "nameEn": "Cheeseburger",
-      "name": "Чизбургер",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20455,7 +19775,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "chocolate milk",
       "nameEn": "Chocolate milk",
-      "name": "Шоколадное молоко",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20473,7 +19792,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "circus",
       "nameEn": "Circus",
-      "name": "Цирк",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20491,7 +19809,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cookie cutter",
       "nameEn": "Cookie cutter",
-      "name": "Формочка для печенья",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20509,7 +19826,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cookie dough",
       "nameEn": "Cookie dough",
-      "name": "Тесто для печенья",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20531,7 +19847,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "donut",
       "nameEn": "Donut",
-      "name": "Пончик",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20557,7 +19872,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "email",
       "nameEn": "Email",
-      "name": "Электронная почта",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20583,7 +19897,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gingerbread house",
       "nameEn": "Gingerbread house",
-      "name": "Пряничный домик",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20617,7 +19930,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "gingerbread man",
       "nameEn": "Gingerbread man",
-      "name": "Пряничный человечек",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20663,7 +19975,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "hot chocolate",
       "nameEn": "Hot chocolate",
-      "name": "Горячий шоколад",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20681,7 +19992,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "librarian",
       "nameEn": "Librarian",
-      "name": "Библиотекарь",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20695,7 +20005,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mac and cheese",
       "nameEn": "Mac and cheese",
-      "name": "Макароны с сыром",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20709,7 +20018,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mail truck",
       "nameEn": "Mail truck",
-      "name": "Почтовый грузовик",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20731,7 +20039,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mailbox",
       "nameEn": "Mailbox",
-      "name": "Почтовый ящик",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20773,7 +20080,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "mailman",
       "nameEn": "Mailman",
-      "name": "Почтальон",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20795,7 +20101,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "music",
       "nameEn": "Music",
-      "name": "Музыка",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20821,7 +20126,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "painting",
       "nameEn": "Painting",
-      "name": "Живопись",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20839,7 +20143,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paper cup",
       "nameEn": "Paper cup",
-      "name": "Бумажный стаканчик",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20853,7 +20156,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "paraglider",
       "nameEn": "Paraglider",
-      "name": "Параплан",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20867,7 +20169,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "pie",
       "nameEn": "Pie",
-      "name": "Пирог",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20897,7 +20198,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "post office",
       "nameEn": "Post office",
-      "name": "Почтовое отделение",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20935,7 +20235,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "smartphone",
       "nameEn": "Smartphone",
-      "name": "Смартфон",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20949,7 +20248,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "spaghetti",
       "nameEn": "Spaghetti",
-      "name": "Спагетти",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20971,7 +20269,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "string phone",
       "nameEn": "String phone",
-      "name": "Телефон из стаканчиков",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -20997,7 +20294,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "treasure map",
       "nameEn": "Treasure map",
-      "name": "Карта сокровищ",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -21023,7 +20319,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "vinegar",
       "nameEn": "Vinegar",
-      "name": "Уксус",
       "tier": 13,
       "starting": false,
       "special": false,
@@ -21045,7 +20340,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "bakery",
       "nameEn": "Bakery",
-      "name": "Пекарня",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21107,7 +20401,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cake",
       "nameEn": "Cake",
-      "name": "Торт",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21129,7 +20422,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "cookie",
       "nameEn": "Cookie",
-      "name": "Печенье",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21159,7 +20451,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "fortune cookie",
       "nameEn": "Fortune cookie",
-      "name": "Печенье с предсказанием",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21181,7 +20472,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sandwich",
       "nameEn": "Sandwich",
-      "name": "Сэндвич",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21211,7 +20501,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "sheet music",
       "nameEn": "Sheet music",
-      "name": "Ноты",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21229,7 +20518,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "toast",
       "nameEn": "Toast",
-      "name": "Тост",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21247,7 +20535,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "treasure",
       "nameEn": "Treasure",
-      "name": "Сокровище",
       "tier": 14,
       "starting": false,
       "special": false,
@@ -21273,7 +20560,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "grilled cheese",
       "nameEn": "Grilled cheese",
-      "name": "Жареный сыр",
       "tier": 15,
       "starting": false,
       "special": false,
@@ -21287,7 +20573,6 @@ window.ALCHEMY_DATA = {
     {
       "id": "picnic",
       "nameEn": "Picnic",
-      "name": "Пикник",
       "tier": 15,
       "starting": false,
       "special": false,
@@ -21315,8 +20600,6 @@ window.ALCHEMY_DATA = {
       ]
     }
   ],
-  // Русские названия интерфейса. Для переименования меняйте текст только здесь;
-  // id, nameEn и рецепты должны оставаться неизменными.
   "names": {
     "air": "Воздух",
     "fire": "Пламя",
@@ -21331,23 +20614,23 @@ window.ALCHEMY_DATA = {
     "time": "Время",
     "dust": "Пыль",
     "soil": "Почва",
-    "land": "Суша",
+    "land": "Равнина",
     "energy": "Энергия",
     "science": "Наука",
     "atmosphere": "Атмосфера",
     "big": "Большой",
-    "continent": "Континент",
+    "continent": "Материк",
     "small": "Маленький",
     "stone": "Камень",
     "lava": "Лава",
     "liquid": "Жидкость",
     "steam": "Пар",
     "rain": "Дождь",
-    "mud": "Грязь",
+    "mud": "Жижа",
     "pressure": "Давление",
     "geyser": "Гейзер",
     "ocean": "Океан",
-    "puddle": "Лужа",
+    "puddle": "Разлив",
     "pond": "Пруд",
     "smoke": "Дым",
     "gas": "Газ",
@@ -21457,7 +20740,7 @@ window.ALCHEMY_DATA = {
     "aquarium": "Аквариум",
     "fish": "Рыба",
     "swimming pool": "Бассейн",
-    "aurora": "Аврора",
+    "aurora": "Небо + Северное сияние",
     "antarctica": "Антарктида",
     "arctic": "Арктика",
     "bank": "Банк",
@@ -21518,7 +20801,7 @@ window.ALCHEMY_DATA = {
     "scissors": "Ножницы",
     "paper": "Бумага",
     "solar cell": "Солнечная батарея",
-    "animal": "Животное",
+    "animal": "Зверь",
     "wolf": "Волк",
     "space station": "Космическая станция",
     "village": "Деревня",
@@ -21586,7 +20869,7 @@ window.ALCHEMY_DATA = {
     "bulletproof vest": "Бронежилет",
     "armor": "Броня",
     "stun gun": "Электрошокер",
-    "wire": "Проволока",
+    "wire": "Провод",
     "sunglasses": "Солнцезащитные очки",
     "swim goggles": "Плавательные очки",
     "water gun": "Водяной пистолет",

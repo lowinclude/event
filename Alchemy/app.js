@@ -12,7 +12,7 @@
   const russianNames = data.names || {};
   const displayName = (id, fallback = id) => russianNames[id] || fallback;
   const elements = data.elements
-    .map((element) => ({ ...element, name: displayName(element.id, element.name) }))
+    .map((element) => ({ ...element, name: displayName(element.id) }))
     .sort((a, b) => a.name.localeCompare(b.name, 'ru'));
   const elementMap = new Map(elements.map((element) => [element.id, element]));
   const nameOf = (id) => displayName(id, elementMap.get(id)?.name);
@@ -26,6 +26,7 @@
   const resultCount = document.querySelector('#result-count');
 
   let selectedId = elementMap.has('steam') ? 'steam' : elements[0].id;
+  let activeStepIndex = 0;
 
   function normalize(value) {
     return value.toLocaleLowerCase('ru').replaceAll('ё', 'е').trim();
@@ -70,7 +71,6 @@
       button.dataset.id = element.id;
       button.setAttribute('role', 'option');
       button.setAttribute('aria-selected', String(element.id === selectedId));
-      button.append(mark(element));
 
       const name = document.createElement('span');
       name.className = 'element-name';
@@ -161,8 +161,15 @@
     const row = document.createElement('li');
     row.className = number ? 'step-row' : 'recipe-row';
     if (number) {
-      const badge = document.createElement('span');
+      const stepIndex = number - 1;
+      row.dataset.stepIndex = stepIndex;
+      row.setAttribute('aria-current', stepIndex === activeStepIndex ? 'step' : 'false');
+      row.classList.toggle('is-current', stepIndex === activeStepIndex);
+      const badge = document.createElement('button');
+      badge.type = 'button';
       badge.className = 'step-number';
+      badge.setAttribute('aria-label', `Отметить шаг ${number} как текущий`);
+      badge.setAttribute('aria-pressed', String(stepIndex === activeStepIndex));
       badge.textContent = number;
       row.append(badge);
     }
@@ -210,7 +217,7 @@
     title.textContent = `Пошаговое создание (${steps.length} ${wordForStep(steps.length)})`;
     const note = document.createElement('p');
     note.className = 'section-note';
-    note.textContent = 'Короткая цепочка от базовых стихий до нужного элемента.';
+    note.textContent = 'Нажмите на шаг, чтобы отметить текущий этап.';
     const starts = document.createElement('div');
     starts.className = 'start-items';
     const used = new Set(steps.flatMap((step) => [step.left, step.right]));
@@ -280,6 +287,7 @@
   function selectElement(id, scroll = false) {
     if (!elementMap.has(id)) return;
     selectedId = id;
+    activeStepIndex = 0;
     renderList();
     renderRecipe();
     if (scroll && window.innerWidth <= 820) recipeCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -304,8 +312,22 @@
   });
   recipeCard.addEventListener('click', (event) => {
     const button = event.target.closest('[data-open-element]');
-    if (button) selectElement(button.dataset.openElement);
+    if (button) {
+      selectElement(button.dataset.openElement);
+      return;
+    }
+    const step = event.target.closest('[data-step-index]');
+    if (step) selectStep(step);
   });
+  function selectStep(step) {
+    activeStepIndex = Number(step.dataset.stepIndex);
+    recipeCard.querySelectorAll('[data-step-index]').forEach((row) => {
+      const isCurrent = Number(row.dataset.stepIndex) === activeStepIndex;
+      row.classList.toggle('is-current', isCurrent);
+      row.setAttribute('aria-current', isCurrent ? 'step' : 'false');
+      row.querySelector('.step-number')?.setAttribute('aria-pressed', String(isCurrent));
+    });
+  }
 
   renderList();
   renderRecipe();
